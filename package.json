@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@graphql-yoga/node": "^2.13.2",
+    "@prisma/client": "^4.0.0",
+    "graphql": "^16.5.0",
+    "prisma": "^4.0.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "dev": "ts-node ./src/index.ts",
+    "seed": "ts-node ./seed"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.5"
+  }
+}
